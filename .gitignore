@@ -3,34 +3,34 @@
 # Keep the top-level client/ and server/ directories tracked, but ignore their build outputs,
 # node_modules, and env files.
 # Node modules (explicit per-project)
- /client/node_modules/
- /server/node_modules/
+/client/node_modules/
+/server/node_modules/
 
 # Build / output (client)
- /client/build/
- /client/dist/
- /client/out/
- /client/.next/
- /client/.nuxt/
- /client/public/build/
+/client/build/
+/client/dist/
+/client/out/
+/client/.next/
+/client/.nuxt/
+/client/public/build/
 
 # Build / output (server)
- /server/build/
- /server/dist/
- /server/out/
- /server/public/
+/server/build/
+/server/dist/
+/server/out/
+/server/public/
 
 # Env files (per-project)
- /client/.env
- /client/.env.local
- /client/.env.*.local
- /server/.env
- /server/.env.local
- /server/.env.*.local
+/client/.env
+/client/.env.local
+/client/.env.*.local
+/server/.env
+/server/.env.local
+/server/.env.*.local
 
 # Coverage (per-project)
- /client/coverage/
- /server/coverage/
+/client/coverage/
+/server/coverage/
 
 # General catches (also apply recursively)
 node_modules/
