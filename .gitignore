@@ -18,6 +18,7 @@
  /server/build/
  /server/dist/
  /server/out/
+ /server/public/
 
 # Env files (per-project)
  /client/.env
